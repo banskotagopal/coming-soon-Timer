@@ -69,6 +69,7 @@ body {
     display: flex;
     gap: 30px;
     padding: 10px;
+
 }
 
 .continer .main {
@@ -113,4 +114,42 @@ body {
     letter-spacing: 1.3px;
     margin: 50px;
     font-size: 2.5rem;
+}
+
+@media(max-width:740px) {
+    .box1 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .box2 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .box3 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .continer {
+        gap: 2px;
+    }
+
+    .continer .main {
+        width: 70px;
+        height: 70px;
+        text-align: center;
+    }
+    
+    .continer .main h1{
+        font-size: 1.1rem;
+    }
+    .continer .news h1{
+        font-size: 1.5rem;
+    }
+
+    .continer .main span{
+        font-size: 18px;
+    }
 }
