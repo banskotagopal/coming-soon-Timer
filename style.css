@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -69,7 +68,6 @@ body {
     display: flex;
     gap: 30px;
     padding: 10px;
-
 }
 
 .continer .main {
@@ -114,6 +112,27 @@ body {
     letter-spacing: 1.3px;
     margin: 50px;
     font-size: 2.5rem;
+}
+
+.btn{
+    text-align: center;
+    padding: 20px;
+}
+
+.btn button{
+    padding: 10px;
+    box-shadow: 2px 3px 10px white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+button:hover{
+    background-color: blueviolet;
 }
 
 @media(max-width:740px) {
