@@ -105,7 +105,7 @@ body {
 
 .news {
     text-align: center;
-    padding-top: 300px;
+    padding-top: 150px;
     background: linear-gradient(to right, orange, blue, white);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -116,7 +116,7 @@ body {
 
 .btn{
     text-align: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 .btn button{
