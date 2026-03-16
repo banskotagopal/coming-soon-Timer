@@ -1,4 +1,4 @@
-const lunchDate = new Date(2026, 1, 25, 12, 10)
+const lunchDate = new Date(2026, 10, 25, 12, 10)
 
 let dayE = document.getElementById("day")
 let hourE = document.getElementById("hour")
@@ -22,7 +22,7 @@ function update() {
      const second = Math.floor((diff %   (1000 *60))/1000)
 
 
-   dayE.textContent = String(day).padStart(2, "0")
+   dayE.textContent = String(day).padStart(2, "0") 
   hourE.textContent = String(hour).padStart(2, "0")
   minuteE.textContent = String(minute).padStart(2, "0")
   secondE.textContent = String(second).padStart(2, "0")
